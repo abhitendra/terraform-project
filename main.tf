@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "s3bucket" {
     acl    = "private"
  
     tags = {
-        Name        = "sungjinwoobucketterra"
+        Name        = "bucketterra"
         Environment = "Dev"
     }
 }
